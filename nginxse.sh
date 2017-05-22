@@ -65,6 +65,7 @@ tput cup $middle_row $middle_col
 tput bold
 echo -e $fallbackNotice
 echo -e "This script will help you generate NGINX Server Block config Files.\n"
+echo -e "This is a free, open-source software originally released by hishri.com\n"
 echo -e "IMPORTANT: -The script WILL NOT delete/modify any existing config files"
 echo -e "\t   -You will be promped before any steps will be made."
 echo -e "\t   -Sudo privileges are needed to save config files."
